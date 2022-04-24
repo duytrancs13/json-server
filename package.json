@@ -1,0 +1,20 @@
+{
+  "name": "json-server",
+  "version": "1.0.0",
+  "description": "How to use json-server",
+  "main": "main.js",
+  "author": "Tran Khanh Duy (duytk4)",
+  "license": "MIT",
+  "scripts": {
+    "dev": "yarn random-data && nodemon main.js",
+    "start": "node main.js",
+    "random-data": "node random-data.js"
+  },
+  "dependencies": {
+    "json-server": "^0.17.0"
+  },
+  "devDependencies": {
+    "casual": "^1.6.2",
+    "nodemon": "^2.0.15"
+  }
+}
